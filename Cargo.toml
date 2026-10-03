@@ -1,8 +1,8 @@
 [package]
-name = "mousuo"
+name = "niqin"
 version = "0.1.0"
 edition = "2024"
-description = "mousuo — 跨境电商试水"
+description = "niQin — 跨境电商试水"
 
 [dependencies]
 topcoat = { path = "../tmp/topcoat/crates/topcoat", features = [

@@ -1,10 +1,10 @@
 //! 订单状态机纯函数测试（管理端流转合法性）
 
-use mousuo::common::constant::{
+use niqin::common::constant::{
     ORDER_STATUS_CANCELLED, ORDER_STATUS_COMPLETED, ORDER_STATUS_PAID, ORDER_STATUS_PENDING,
     ORDER_STATUS_SHIPPED,
 };
-use mousuo::common::order_state::{allowed_transition, next_actions};
+use niqin::common::order_state::{allowed_transition, next_actions};
 
 #[test]
 fn allows_legal_transitions() {

@@ -2,8 +2,8 @@
 //!
 //! 运行方式：`cargo test --test smoke_user -- --ignored`
 
-use mousuo::common::auth;
-use mousuo::db;
+use niqin::common::auth;
+use niqin::db;
 use surrealdb::types::SurrealValue;
 
 #[tokio::test]

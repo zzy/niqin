@@ -1,13 +1,13 @@
 services:
   app:
-    image: ghcr.io/zzy/mousuo:latest
+    image: ghcr.io/zzy/niqin:latest
     restart: always
     ports:
       - "7800:7800"
     env_file:
       - .env
     volumes:
-      - /root/mousuo-uploads:/app/data/media
+      - /root/niqin-uploads:/app/data/media
     networks:
       - surrealdb_net
 

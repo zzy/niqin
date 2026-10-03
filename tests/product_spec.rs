@@ -1,6 +1,6 @@
 //! 商品 slug 校验纯函数测试（管理端创建/编辑共用）
 
-use mousuo::db::products::valid_slug;
+use niqin::db::products::valid_slug;
 
 #[test]
 fn accepts_valid_slugs() {

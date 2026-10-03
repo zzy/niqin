@@ -1,10 +1,10 @@
-# mousuo - 眸索
+# niQin - 霓沁
 
-> 眸(móu), the eye, a discerning gaze; 索(suǒ), to seek, to search out.
+> 霓(ní), the rainbow glow; 沁(qìn), the freshness that seeps in.
 
 A cross-border e-commerce trial built on [topcoat](https://github.com/tokio-rs/topcoat) and [surrealdb](https://surrealdb.com/) - all Rust, single binary.
 
-Demo: https://mousuo.com
+Demo: https://niqin.com
 
 ## Stack
 
@@ -34,11 +34,11 @@ Config lives in `.env` (keys defined in `src/common/config.rs`).
 Multi-stage Dockerfile; the topcoat path dependency is swapped to the GitHub main branch at build time.
 
 ```sh
-docker build -t ghcr.io/zzy/mousuo:latest .
+docker build -t ghcr.io/zzy/niqin:latest .
 docker compose up -d
 ```
 
-- Port `7800`; uploads volume `/root/mousuo-uploads:/app/data/media`
+- Port `7800`; uploads volume `/root/niqin-uploads:/app/data/media`
 - External network `surrealdb_net`; server `.env` sets `DB_URL` to the surrealdb container
 - nginx: no rewrites (locale negotiation is in-app), disable buffering, raise timeouts (SSE, video upload)
 

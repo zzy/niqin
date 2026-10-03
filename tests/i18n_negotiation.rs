@@ -1,8 +1,8 @@
 //! i18n 协商与通用辅助函数的纯函数测试（无 DB 依赖，cargo test 直接跑）
 
-use mousuo::common::form::safe_next;
-use mousuo::common::format::format_cents;
-use mousuo::i18n::loader::{negotiate_language, normalize_locale_path, swap_locale};
+use niqin::common::form::safe_next;
+use niqin::common::format::format_cents;
+use niqin::i18n::loader::{negotiate_language, normalize_locale_path, swap_locale};
 
 #[test]
 fn normalize_canonical_supported_path_passes_through() {
