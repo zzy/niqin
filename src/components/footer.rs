@@ -16,7 +16,7 @@ pub async fn Footer(locale: String) -> Result<impl View> {
             <div class="max-w-7xl mx-auto px-4 text-center">
                 <p class="text-xs text-muted-foreground">
                     <a
-                        href="https://github.com/zzy/mousuo"
+                        href="https://github.com/zzy/niqin"
                         target="_blank"
                         class="hover:underline"
                     >
